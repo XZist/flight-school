@@ -17,7 +17,7 @@ RSpec.configure do |config|
   if config.files_to_run.one?
     config.default_formatter = 'doc'
   end
-da974h297h0831hr08304h20th08h203h8r028hr028r802hr04hgouehiux
+
   config.order = :random
   Kernel.srand config.seed
 end
