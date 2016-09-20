@@ -2,7 +2,7 @@ resources:
 - name: flight-school
   type: git
   source:
-    uri: https://github.com/XZist/flight-school
+    uri: http://git/get-it-done/pcf-concourse-flight-school
     branch: master
 
 jobs:
