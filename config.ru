@@ -1,3 +1,3 @@
 require './lib/app'
 
-run FlightSchoolaa
+run FlightSchool
