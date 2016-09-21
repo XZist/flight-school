@@ -1,5 +1,5 @@
 require "webmock/rspec"
-ouasdfhoaiugiyabroe8hblw34789t34
+
 require "radar"
 
 RSpec.describe Radar, ".status_for" do
