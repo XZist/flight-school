@@ -5,7 +5,7 @@ inputDir= outputDir= versionFile=
 while [ $# -gt 0 ]; do
   case $1 in
     -i | --input-dir )
-      inputDir = $2
+      inputDir=$2
       shift
       ;;
     -o | --output-dir )
