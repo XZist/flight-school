@@ -1,0 +1,23 @@
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: 
+    repository: ruby
+    tag: 2.3.0
+
+inputs:
+- name: flight-school
+- name: version
+
+outputs: 
+- name: build
+
+run:
+  path: ./flight-school/ci/tar.sh
+  args: [
+    --input-dir, pcfdemo,
+    --output-dir, build,
+    --version-file, version,
+  ]
+
