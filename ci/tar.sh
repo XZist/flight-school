@@ -40,8 +40,8 @@ if [ ! -f "$versionFile" ]; then
 fi
 
 version=`cat $versionFile`
-artifactName="flight-school-${version}.tgz"
+artifactName="flight-school-${version}.tar.gz"
 
-tar -czvf $inputDir $outputDir/$artifactName
+tar -czvf $outputDir/$artifactName $inputDir
 
 
